@@ -1,4 +1,5 @@
-/*AIM
+/* A354
+AIM
 
 To write a Java program to check whether a given number is an Armstrong number or not.
 
