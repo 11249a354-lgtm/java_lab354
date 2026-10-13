@@ -1,4 +1,4 @@
-/*Aim
+/*A354Aim
 To write a Java program to create three threads and demonstrate thread priorities.
 Algorithm
  1\. Start the program.
