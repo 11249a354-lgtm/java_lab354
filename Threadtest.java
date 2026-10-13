@@ -1,3 +1,26 @@
+/*Aim:
+To write a Java program to demonstrate thread methods such as yield(), sleep(), and break.
+Algorithm:
+    1\. Start the program.
+
+2\. Create three classes A, B and C by extending the Thread class.
+
+3\. Override the run() method in all three classes.
+
+4\. In thread A, print numbers from 1 to 5 and use yield() to give other threads a chance to execute.
+
+5\. In thread B, print numbers from 1 to 3 and terminate the loop using break.
+
+6\. In thread C, print numbers from 1 to 5 and use sleep() to pause the thread for 1500 milliseconds.
+
+7\. Create objects for threads A, B and C in the main() method.
+
+8\. Start all three threads using the start() method.
+
+9\. Print the exit message from the main thread.
+
+10\. Stop the program.*/
+
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -100,3 +123,24 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+/*Output:
+Start thread A
+exit from main thread
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+
+Result:
+Thus, the Java program demonstrating the yield(), sleep(), and break statements in threads was executed successfully.*/
