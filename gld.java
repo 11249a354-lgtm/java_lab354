@@ -50,6 +50,14 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
-/*RESULT:
+/*
+OUTPUT:
+
+A    B
+C    D
+E    F
+G    H
+I    J
+RESULT:
 
 Thus, the Java Applet program to demonstrate GridLayout using 10 buttons was executed successfully.*/
