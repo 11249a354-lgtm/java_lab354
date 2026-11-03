@@ -1,3 +1,22 @@
+/*A354
+AIM:
+
+To write and execute a Java Applet program to demonstrate CardLayout using three buttons and ActionListener.
+ALGORITHM:
+1. Start.
+2. Import the required AWT, Applet and Event packages.
+3. Create a class named carddemo that extends Applet and implements ActionListener.
+4. Declare three buttons, a Panel and a CardLayout object.
+5. Define the init() method.
+6. Create a panel and add it to the applet.
+7. Set CardLayout to the panel.
+8. Create three buttons.
+9. Add ActionListener to all three buttons.
+10. Add the buttons to the panel.
+11. Define the actionPerformed() method.
+12. Use CardLayout.next() to display the next button.
+13. Execute the applet.
+14. Stop.*/
 import java.io.*; import
 java.awt.*; import
 java.applet.*;
@@ -32,3 +51,6 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
+/*RESULT:
+
+Thus, the Java Applet program to demonstrate CardLayout using three buttons and ActionListener was executed successfully.*/
