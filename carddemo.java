@@ -51,6 +51,26 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
-/*RESULT:
+/* OUTPUT:
+
+Initially displayed:
++----------------------+
+|                      |
+|     first Button     |
+|                      |
++----------------------+
+After clicking the first button:
++----------------------+
+|                      |
+|    second Button     |
+|                      |
++----------------------+
+After clicking the second button:
++----------------------+
+|                      |
+|     third button     |
+|                      |
++----------------------+
+RESULT:
 
 Thus, the Java Applet program to demonstrate CardLayout using three buttons and ActionListener was executed successfully.*/
