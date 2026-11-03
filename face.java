@@ -39,6 +39,8 @@ public class face extends Applet
         g.drawOval(160, 92, 15, 30);
     }
 }
-/*RESULT:
+/* OUTPUT:
+
+RESULT:
 
 Thus, the Java Applet program to draw a human face using graphical methods was executed successfully.*/
